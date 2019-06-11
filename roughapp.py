@@ -25,10 +25,9 @@ class Crashes(Base):
     manufacturer = Column(String(255))
     carrier = Column(String(255))
     fatalities = Column(Integer)
-    location = Column(String(255))
-    
+    location = Column(String(255))    
 
-#    
+#Initialize flask app   
 app = Flask(__name__)
 
 @app.route('/')
@@ -36,11 +35,11 @@ def home():
     return('Blah')
 
 @app.route('/crash-data')
-def crashes()
+def crashes():
 
     #Query the crashes
     results = session.query(Crashes.date, Crashes.manufacturer, Crashes.carrier, Crashes.fatalities, Crashes.location
-    return jsonify
+    return(jsonify(results))
 
 
 if __name__ == '__main__':
