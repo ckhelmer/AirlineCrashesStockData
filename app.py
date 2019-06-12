@@ -89,19 +89,19 @@ def all_crashes():
 
 @app.route('/stock_impact')
 def stock_impact():
-    return render_template('stock_impact.html', name=name)
+    return render_template('stock_impact.html')
 
 @app.route('/crash')
 def crash():    
-    return render_template('crash.html', name=name)
+    return render_template('crash.html')
 
 @app.route('/datastock')
 def datastock():
-    return render_template('data-stock.html', name=name)
+    return render_template('data-stock.html')
 
 @app.route('/')
 def home():
-    return render_template('index.html', name=name)
+    return render_template('index.html')
     
 if __name__ == '__main__':
     app.run(debug=True)    
