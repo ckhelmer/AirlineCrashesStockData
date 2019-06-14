@@ -1,11 +1,11 @@
 
 body {
-    text-align: center;
-    font-family: Merriweather, serif;
+    text-align: left;
+    font-family: 'Assistant', sans-serif;;
     max-height: 1780px;
-    background-color: #e8eaea;
+    background-color: white;
 }
-
+/*
 .card-title, .card-text {
     color: black;
     font-family: Merriweather, serif;
@@ -21,7 +21,6 @@ body {
 #sub {
     font-size: 14px;
 }
-
 .card-img-overlay {
     background-color: rgba(0,0,0,.1)
 }
@@ -29,13 +28,13 @@ body {
 .nav-item {
     padding: 7px 30px;
 }
-
+*/
 .card {
     position: fixed;
 }
 
 @media (max-width: 320px) {
     h3 {
-        color: white;
+        color: black;
     }
 }
