@@ -43,9 +43,7 @@ app = Flask(__name__)
 
 @app.route('/api')
 def api():
-    return(f"Available Routes:<br/>"
-        f"/api/v1.0/american_carriers <br/>"
-        f"/api/v1.0/all_carriers")
+    return render_template('api.html')
 
 @app.route('/api/american_carriers')
 def american_crashes():
