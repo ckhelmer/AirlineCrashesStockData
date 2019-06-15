@@ -31,7 +31,7 @@ var chosenYAxis='TotalDeaths'
 // Step 1: Parse Data/Cast as numbers
 // ==============================
 
-d3.csv("assets/data/data.csv").then(function(Crash) {
+d3.csv("static/data.csv").then(function(Crash) {
 
    // Step 1: Create scale functions
     // ==============================
