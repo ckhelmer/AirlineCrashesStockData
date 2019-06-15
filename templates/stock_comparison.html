@@ -1,62 +1,68 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="landingstyle.css"
-  
-  </head>
-  <body>
-    
+<head>
+  <meta charset="UTF-8">
+  <title>Crash</title>
+ <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+	-->
+	<script src="assets/js/jquery-3.3.1.slim.min.js"></script>
+	<script src="assets/js/popper.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/d3Style.css">
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="/">Summary</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+</head>
 
-  <div class="collapse navbar-collapse" id="navbarColor02">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="stock_impact">Stock Impact</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="stock_comparison">Crash Comparisons</a>
-      </li>
-      <li class="nav-item">
-          <a class="nav-link" href="crashdata">Data</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="api">API</a>
-        </li>  
-    </ul>
-  </div>
-</nav>
+<body>
   <div class="container">
     <div class="row">
-      <div class="col-md-12">
-  <!--TITLE TEXT W/IMAGE-->        
-  <div class="card bg-dark text-white">
-      <img class="card-img" src="khanh-ngo-1210226-unsplash.jpg" alt="Card image">
-      <div class="card-img-overlay">
-        <h3 class="card-title">Crash Data</h3>
-        <p class="card-text">Does Airplane crashes impact the stock price of the company.</p>
-
+      <div class="col-xs-12 col-md-12">
+        <h1>Crash</h1>
       </div>
-    </div>    
-</div>
-</div>
-</div>
-    
+    </div>
+    <div class="row">
+      <div class="col-xs-12  col-md-9">
+        <div id="scatter">
+          <!-- We append our chart here. -->
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12  col-md-9">
+        <div class="article">
+          <h2>Correlations Discovered Between Total death and Carrier, Income</h2>
+          <p>akakakak</p>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  </body>
+          <p>dkdkdkdk</p>
+
+          <p>dkdkdkdka</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer-->
+  <div id="footer">
+    <p>The Coding Boot Camp&copy;2016</p>
+  </div>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.js"></script>
+<script src="assets/js/d3-tip.js"></script>    
+ 
+  <script src="assets/js/d3.min.js"></script>
+
+  <script type="text/javascript" src="static/js/app.js"></script>
+
+</body>
+
 </html>

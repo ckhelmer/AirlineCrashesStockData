@@ -1,0 +1,440 @@
+TotalDeaths,Carrier,Aircraft,Location,Date
+58,Japan,Fokker,,8/24/1938
+53,Avianca,Douglas,"Subachoque, Colombia",2/15/1947
+53,Eastern Air Lines,Douglas,"Bainbridge, Maryland, US",5/30/1947
+50,Pennsylvania Central Airlines,Douglas,"Shannondale, West Virginia, US",6/13/1947
+52,United Airlines,Douglas,"Bryce Canyon, Utah, US",10/24/1947
+52,Air,Latécoère,,8/1/1948
+53,Strato-Freight,Curtiss,"San Juan, Puerto Rico, US",6/7/1949
+55,Eastern Air Lines Flight 537 andBolivian Air,Douglas,"Alexandria, Virginia, US",11/1/1949
+80,Fairflight,Avro,"Sigingstone, Wales, UK",3/12/1950
+58,Northwest Orient Airlines,Douglas,"Lake Michigan, off Benton Harbor, Michigan, US",6/23/1950
+51,Panair do Brasil,Lockheed,"São Leopoldo, Brazil",7/28/1950
+55,TWA,Lockheed,"Wadi Natrun, Egypt",8/31/1950
+58,Curtiss Reid Flying,Douglas,"Grande Tête de l'Obiou mountain, France",11/13/1950
+50,United Airlines,Douglas,"Fort Collins, Colorado, US",6/30/1951
+50,United Airlines,Douglas,"Union City, California, US",8/24/1951
+56,Miami,Curtiss,"Hillside, New Jersey, US",12/16/1951
+52,Pan Am,Douglas,"San Juan, Puerto Rico, US",4/11/1952
+50,Pan Am,Boeing,"Santana do Araguaia, Brazil",4/29/1952
+58,Transocean Air Lines,Douglas,,7/12/1953
+66,United States,Douglas,"Waianae Range, Oahu, Hawaii, US",3/22/1955
+66,United Airlines,Douglas,"Medicine Bow Peak, Wyoming, US",10/6/1955
+50,Scottish,Avro,"Żurrieq, Malta",2/18/1956
+52,Transports Aériens,Douglas,"New Cairo, Egypt",2/20/1956
+74,Linea Aeropostal Venezolana,Lockheed,"New York Bight, Atlantic Ocean, area of Jones Beach, New York, US",6/20/1956
+128,United Airlines Flight 718 andTWA,Douglas,"Grand Canyon, Arizona, US",6/30/1956
+59,US,Douglas,"Porcupine Seabight, Atlantic Ocean",10/10/1956
+62,Trans-Canada Air Lines,Canadair,"Slesse Mountain, B.C., Canada",12/9/1956
+58,KLM,Lockheed,"Biak Island, Indonesia",7/16/1957
+79,Maritime Central Airways,Douglas,"Issoudun, Quebec, Canada",8/11/1957
+61,Aerolíneas Argentinas,Douglas,"Bolívar, Argentina",12/8/1957
+61,Sabena,Douglas,"Casablanca, Morocco",5/18/1958
+99,KLM,Lockheed,"Shannon, Ireland",8/14/1958
+64,Aeroflot,Tupolev,"Chita, Russian SFSR, USSR",8/15/1958
+80,Aeroflot,Tupolev,"Vurnarsky District, Chuvash ASSR, Russian SFSR, USSR",10/17/1958
+51,Austral Líneas Aéreas,Curtiss,"Mar del Plata, Argentina",1/16/1959
+65,American Airlines,Lockheed,"East River, New York, US",2/3/1959
+68,TWA,Lockheed,"Busto Arsizio, Italy",6/26/1959
+54,TAI,Douglas,"Mérignac, France",9/24/1959
+50,Capital Airlines,Vickers,"Holdcroft, Virginia, US",1/18/1960
+59,Lloyd Aéreo,Douglas,"Arbieto, Bolivia",2/5/1960
+61,US Navy (131582) andReal Transportes,Douglas,"Guanabara Bay, Brazil",2/25/1960
+63,Northwest Orient Airlines,Lockheed,"Cannelton, Indiana, US",3/17/1960
+54,REAL Transportes,Convair,"Guanabara Bay, Brazil",6/24/1960
+63,Air France,Lockheed,"Yoff, Senegal",8/29/1960
+80,World Airways,Douglas,"Barrigada, Guam, US",9/19/1960
+62,Eastern Air Lines,Lockheed,"Boston, Massachusetts, US",10/4/1960
+134,United Airlines Flight 826 andTWA,Douglas,,12/16/1960
+73,Sabena,Boeing,"Brussels, Belgium",2/15/1961
+52,ČSA,Ilyushin,"Gräfenberg, West Germany",3/28/1961
+61,Viasa,Douglas,"Lisboa, Portugal",5/30/1961
+72,ČSA,Ilyushin,"Bouskoura, Morocco",7/12/1961
+67,Aerolíneas Argentinas,Douglas,"Buenos Aires, Argentina",7/19/1961
+78,TWA,Lockheed,"Hinsdale, Illinois, US",9/1/1961
+83,President,Douglas,"Shannon, Ireland",9/10/1961
+77,Air France,Sud,"Rabat, Morocco",9/12/1961
+77,Imperial Airlines,Lockheed,"Richmond, Virginia, US",11/8/1961
+52,Aerolíneas Argentinas,de,"Campinas, Brazil",11/23/1961
+59,Aeroflot,Ilyushin,"Tarasovsky District, Russian SFSR, USSR",12/17/1961
+95,American Airlines,Boeing,"Jamaica Bay, New York, US",3/1/1962
+111,Caledonian Airways,Douglas,"Douala, Cameroon",3/4/1962
+107,Flying Tiger Line,Lockheed,,3/16/1962
+130,Air France,Boeing,,6/3/1962
+113,Air France,Boeing,"Deshaies, Guadeloupe, West Indies",6/22/1962
+94,Alitalia,McDonnell,"Junnar, India",7/7/1962
+81,Aeroflot,Antonov,"Gagra District, Abkhaz ASSR, Georgian SSR, USSR",7/28/1962
+86,Aeroflot,Tupolev,"Yelabuga, Tatar ASSR, Russian SFSR, USSR",9/3/1962
+97,Varig,Boeing,"San Juan de Miraflores, Peru",11/27/1962
+50,Panair do,Lockheed,"Manaus, Brazil",12/14/1962
+104,Middle East Airlines Flight 265 andTurkish Air,Vickers,"Ankara, Turkey",2/1/1963
+67,Aeroflot,Ilyushin,"Rybno-Slobodsky District, Tatar ASSR, Russian SFSR, USSR",4/4/1963
+55,Air,Douglas,"Mount Cameroon, Cameroon",5/3/1963
+101,Northwest Airlines,Douglas,"Annette Island, Alaska, US",6/3/1963
+63,United Arab Airlines,de,"Arabian Sea, off Mumbai, India",7/27/1963
+80,Swissair,Sud,"Dürrenäsch, Switzerland",9/4/1963
+118,Trans-Canada Air Lines,Douglas,"Sainte-Thérèse, Quebec, Canada",11/29/1963
+81,Pan Am,Boeing,"Elkton, Maryland, US",12/8/1963
+58,Eastern Air Lines,Douglas,"Lake Pontchartrain, Louisiana, US",2/25/1964
+83,British Eagle International Airlines,Bristol,"Glungezer mountain, Austria",2/29/1964
+85,Paradise Airlines,Lockheed,"Genoa, Nevada, US",3/1/1964
+57,Civil Air,Curtiss,"Jiaoxi, Taiwan",6/20/1964
+87,Aeroflot,Ilyushin,"Yuzhno Sakhalinsk, Russian SFSR, USSR",9/2/1964
+80,Union de Transportes,Douglas,"Mt. Alcazaba, Spain",10/2/1964
+50,TWA,Boeing,"Fiumicino, Italy",11/23/1964
+64,Aeroflot,Ilyushin,"Almaty, Kazakh SSR, USSR",1/4/1965
+87,LAN Chile,Douglas,"San José Volcano, Chile",2/6/1965
+84,Eastern Air Lines,Douglas,"Jones Beach, New York, US",2/8/1965
+50,Iberia,Convair,"Tangier, Morocco",3/31/1965
+54,Alia Royal Jordanian Airlines,Handley,"Al-Dimas, Syria",4/10/1965
+121,Pakistan International Airlines,Boeing,"New Cairo, Egypt",5/20/1965
+69,Fuerza Aérea,Douglas,[nb 27],11/3/1965
+58,American Airlines,Boeing,"Hebron, Kentucky, US",11/8/1965
+56,Avianca,Douglas,"Cartagena, Colombia",1/15/1966
+117,Air India,Boeing,"Mont Blanc massif, France",1/24/1966
+133,All Nippon Airways,Boeing,"Tokyo Bay, Japan",2/4/1966
+64,Canadian Pacific Airlines,Douglas,,3/4/1966
+124,BOAC,Boeing,"Gotemba, Japan",3/5/1966
+83,American Flyers,Lockheed,"Ardmore, Oklahoma, US",4/22/1966
+98,Britannia Airways,Bristol,"Komenda, SR Slovenia, Yugoslavia",9/1/1966
+50,All Nippon Airways,NAMC,"Seto Inland Sea, off Matsuyama, Shikoku, Japan",11/13/1966
+82,TABSO,Ilyushin,"Bratislava, Czechoslovakia",11/24/1966
+129,Flying Tiger,Canadair,"Da Nang, Vietnam",12/24/1966
+56,Varig,Douglas,"Monrovia, Liberia",3/5/1967
+126,Globe,Bristol,"Nicosia, Cyprus",4/20/1967
+88,Air Ferry,Douglas,"Mont Canigou, France",6/3/1967
+72,British Midland Airways,Canadair,"Stockport, England, UK",6/4/1967
+82,Piedmont Airlines Flight 22 andPrivate,Boeing,"Hendersonville, North Carolina, US",7/19/1967
+107,Aeroflot,Ilyushin,"Aramil, Russian SFSR, USSR",11/16/1967
+70,TWA,Convair,"Hebron, Kentucky, US",11/20/1967
+72,Faucett,Douglas,"Cordillera Blanca, Peru",12/8/1967
+83,Aeroflot,Ilyushin,"Chunsky District, Russian SFSR, USSR",2/29/1968
+63,Air France Flight,Boeing,"La Grande Soufrière volcano, Guadeloupe",3/5/1968
+61,Aer Lingus,Vickers,"St George's Channel, off Wexford, Ireland",3/24/1968
+123,South African Airways,Boeing,"Windhoek, Namibia (then South West Africa)",4/20/1968
+85,Braniff,Lockheed,"Dawson, Texas, US",5/3/1968
+58,Pan African,Douglas,"Rivers State, Nigeria",9/28/1968
+51,Pan Am,Boeing,"Maiquetía, Venezuela",12/12/1968
+50,Ariana Afghan Airlines,Boeing,"Fernhill, England, UK",1/5/1969
+155,Viasa,McDonnell,"Maracaibo, Venezuela",3/16/1969
+100,United Arab,Ilyushin,"Aswan, Egypt",3/20/1969
+53,LOT Polish Airlines,Antonov,"Polica Mtn., Poland",4/2/1969
+79,Mexicana,Boeing,"El Carmen, Mexico",6/4/1969
+120,Aeroflot Flight 831 and Soviet Air,Ilyushin,"Yukhnovsky, Russian SFSR, USSR",6/23/1969
+55,Aeroflot,Antonov,"Dnipropetrovsk, Ukrainian SSR, USSR",8/3/1969
+83,Allegheny Airlines Flight 853 andPrivate,McDonnell,"Fairland, Indiana, US",9/9/1969
+74,Lloyd Aéreo,Douglas,"Cordillera Kimsa Cruz, Bolivia",9/26/1969
+87,Nigeria Airways,Vickers,"Lagos, Nigeria",11/20/1969
+62,Air France Flight,Boeing,"Maiquetía, Venezuela",12/4/1969
+90,Olympic Airways,Douglas,"Keratea, Greece",12/8/1969
+92,Aeroflot,Ilyushin,"Bulungur District, Uzbek SSR, USSR",2/6/1970
+102,Dominicana de,McDonnell,"Santo Domingo, Dominican Republic",2/15/1970
+61,Royal Air,Sud,"Berrechid, Morocco",4/1/1970
+112,Dan-Air,de,"Les Agudes mountain, Spain",7/3/1970
+109,Air Canada,McDonnell,"Vaughan, Ontario, Canada",7/5/1970
+101,LANSA,Lockheed,"Cusco, Peru",8/9/1970
+75,Southern Airways,McDonnell,"Ceredo, West Virginia, US",11/14/1970
+65,Aeroflot,Antonov,"Lutuhyne, Ukrainian SSR, USSR",3/31/1971
+78,Aviogenex,Tupolev,"Omišalj, SR Croatia, Yugoslavia",5/23/1971
+50,Hughes Airwest Flight 706 andUS Marine,McDonnell,"San Gabriel Mts., near Duarte, California, US",6/6/1971
+68,Toa Domestic Airlines,NAMC,"Hakodate, Japan",7/3/1971
+97,Aeroflot,Tupolev,"Irkutsk, Russian SFSR, USSR",7/25/1971
+162,All Nippon Airways Flight 58,Boeing,"Shizukuishi, Japan",7/30/1971
+111,Alaska Airlines,Boeing,"Juneau, Alaska, US",9/4/1971
+63,British European Airways,Vickers,"Aarsele, Belgium",10/2/1971
+69,Merpati Nusantara Airlines,Vickers,"Mentawai Strait, off Padang, Indonesia",11/10/1971
+52,Aeroflot,Antonov,"Vinnytsia, Ukrainian SSR, USSR",11/12/1971
+57,Aeroflot,Antonov,"Saratov Oblast, Russian SFSR, USSR",12/1/1971
+91,LANSA,Lockheed,"Puerto Inca, Peru",12/24/1971
+104,Iberia Airlines,Sud,"Ibiza, Spain",1/7/1972
+112,Sterling Airways,Sud,"Fujairah, United Arab Emirates",3/14/1972
+115,Alitalia,McDonnell,"Cinisi, Sicily, Italy",5/5/1972
+122,Aeroflot,Antonov,"Kharkiv, Ukrainian SSR, USSR",5/18/1972
+86,Japan Airlines,Douglas,"New Delhi, India",6/14/1972
+118,British European Airways,Hawker,"Staines, United Kingdom",6/18/1972
+156,Interflug,Ilyushin,"Königs Wusterhausen, East Germany",8/14/1972
+101,Aeroflot,Ilyushin,"Verkhneuralsky District, Russian SFSR, USSR",8/31/1972
+109,Aeroflot,Ilyushin,"Black Sea, off Adler, Russian SFSR, USSR",10/1/1972
+174,Aeroflot,Ilyushin,,10/13/1972
+60,Air Inter,Vickers,"Noirétable, France",10/27/1972
+61,Japan Airlines,McDonnell,,11/28/1972
+155,Spantax,Convair,"San Cristóbal, Tenerife, Canary Islands, Spain",12/3/1972
+101,Eastern Air Lines,Lockheed,"Everglades, near Tamiami, Florida, US",12/29/1972
+176,Nigeria,Boeing,"Kano, Nigeria",1/22/1973
+66,Aeroflot,Tupolev,"Prague, Czechoslovakia",2/19/1973
+79,Aeroflot,Ilyushin,"Khujand, Tajik SSR, USSR",2/24/1973
+68,Iberia Flight 504 and Spantax,McDonnell,"La Planche, France",3/5/1973
+108,Invicta International Airlines,Vickers,"Reinach, Switzerland",4/10/1973
+63,Aeroflot,Ilyushin,"Zharma District, Kazakh SSR, USSR",5/11/1973
+123,Varig,Boeing,"Saulx-les-Chartreux, France",7/11/1973
+78,Pan Am,Boeing,"Papeete, Tahiti, French Polynesia",7/22/1973
+89,Delta Air Lines,McDonnell,"Boston, Massachusetts, US",7/31/1973
+86,Aviaco,Sud,"A Coruña, Spain",8/13/1973
+56,Aeroflot,Antonov,"Neftyanyye Kamni, Azerbaijan",8/18/1973
+108,Aeroflot,Tupolev,"Yekaterinburg, Russian SFSR, USSR",9/30/1973
+122,Aeroflot,Tupolev,"Domodedovo, Russian SFSR, USSR",10/13/1973
+51,Aeroflot,Tupolev,"Volokolamsky District, Russian SFSR, USSR",12/16/1973
+106,Royal Air Maroc,Sud,"Tétouan, Morocco",12/22/1973
+66,Turkish Airlines,Fokker,"Cumaovası, Turkey",1/26/1974
+97,Pan Am,Boeing,"Pago Pago, American Samoa",1/30/1974
+346,Turkish Airlines,McDonnell,"Fontaine-Chaalis, France",3/3/1974
+78,Wenela Air,Douglas,"Francistown, Botswana",4/4/1974
+107,Pan Am,Boeing,"Negara, Bali, Indonesia",4/22/1974
+109,Aeroflot,Ilyushin,"Shushary, Russian SFSR, USSR",4/27/1974
+72,Eastern Air Lines,McDonnell,"Charlotte, North Carolina, US",9/11/1974
+59,Lufthansa,Boeing,"Nairobi, Kenya",11/20/1974
+92,TWA,Boeing,"Mt. Weather, Virginia, US",12/1/1974
+191,Martinair Holland,Douglas,"Maskeliya, Sri Lanka",12/4/1974
+75,Avensa,McDonnell,"Maturín, Venezuela",12/22/1974
+52,Lineas Aéreas del Estado,Fokker,"Pilcaniyeu, Argentina",3/16/1975
+113,Eastern Air Lines,Boeing,"Jamaica, New York, US",6/24/1975
+188,Alia Royal,Boeing,"Tamri, Morocco",8/3/1975
+126,ČSA,Ilyushin,"Damascus, Syria",8/20/1975
+60,Malév,Tupolev,"Beirut, Lebanon",9/30/1975
+67,Transporte Aéreo,Convair,"Cordillera Mts., La Paz Region, Bolivia",10/27/1975
+75,Inex-Adria Aviopromet,McDonnell,"Prague, Czechoslovakia",10/30/1975
+62,Aeroflot,Tupolev,"Moscow Oblast, Russian SFSR, USSR",1/3/1976
+111,Aeroflot/Armenia,Ilyushin,"Verkhnekhavsky District, Russian SFSR, USSR",3/6/1976
+52,Aeroflot,Antonov,"Chernihiv, Ukrainian SSR, USSR",5/15/1976
+76,ČSA,Ilyushin,"Bratislava, Czechoslovakia",7/28/1976
+59,SAETA,Vickers,"Chimborazo volcano, Andes Mts., Ecuador",8/15/1976
+68,Fuerza Aérea,Lockheed,"Lajes, Azores, Portugal",9/3/1976
+64,Aeroflot Flight 7957and Aeroflot,Antonov,"Black Sea, near Anapa, Russian SFSR, USSR",9/9/1976
+176,British Airways Flight 476 andInex Adria,Hawker,"Vrbovec, SR Croatia, Yugoslavia",9/10/1976
+154,Turkish Airlines,Boeing,"Isparta, Turkey",9/19/1976
+95,Indian Airlines,Sud,"Mumbai, India",10/12/1976
+116,Lloyd Aéreo,Boeing,"Santa Cruz, Bolivia",10/13/1976
+50,Olympic Airways,NAMC,"Servia, Greece",11/23/1976
+72,Aeroflot,Tupolev,"Dmitrovsky District, Moscow Oblast, Russian SFSR, USSR",11/28/1976
+71,EgyptAir,Boeing,"Bangkok, Thailand",12/25/1976
+96,Aeroflot,Tupolev,"Almaty, Kazakh SSR, USSR",1/13/1977
+77,Aeroflot,Ilyushin,"Mineralnye Vody, Russian SFSR, USSR",2/15/1977
+583,Pan Am Flight 1736 andKLM,Boeing,"Tenerife, Spain",3/27/1977
+72,Southern Airways,McDonnell,"New Hope, Georgia, US",4/4/1977
+69,Aeroflot,Ilyushin,"Boyeros, Cuba",5/27/1977
+131,TAP Portugal,Boeing,"Santa Cruz, Madeira",11/19/1977
+59,Libyan Arab,Tupolev,"Ar Rajma, Libya",12/2/1977
+213,Air India,Boeing,"Arabian Sea, off Mumbai, India",1/1/1978
+73,Balkan,Tupolev,"Vratsa Province, Bulgaria",3/16/1978
+144,PSA Flight 182 andPrivate,Boeing,"San Diego, California, US",9/25/1978
+183,Icelandic Airlines,Douglas,"Katunayake, Sri Lanka",11/15/1978
+108,Alitalia,McDonnell,"Tyrrhenian Sea, off Palermo, Italy",12/23/1978
+58,Aeroflot,Tupolev,"Minsk, Byelorussian SSR, USSR",3/17/1979
+57,SAETA,Vickers,"Pastaza Province, Ecuador",4/23/1979
+273,American Airlines,McDonnell,"Des Plaines, Illinois, U.S.",5/25/1979
+61,Garuda,Fokker,"Mount Sibayak, near Berastagi, Indonesia",7/11/1979
+178,Aeroflot/Moldovia flight 7628 and Aeroflot,Tupolev,"Dniprodzerzhynsk, Ukrainian SSR, USSR",8/11/1979
+63,Aeroflot,Tupolev,"Kirsanov, Russian SFSR, USSR",8/29/1979
+73,Western Airlines,McDonnell,"Mexico City, Mexico",10/31/1979
+156,Pakistan International Airlines,Boeing,"Taif, Saudi Arabia",11/26/1979
+257,Air New Zealand,McDonnell,"Mount Erebus, Antarctica",11/28/1979
+128,Iran Air,Boeing,"Alborz Mountains, Iran",1/21/1980
+87,LOT Polish Airlines,Ilyushin,"Warsaw, Poland",3/14/1980
+55,Transbrasil,Boeing,"Santa Catarina, Brazil",4/12/1980
+146,Dan-Air,Boeing,"Tenerife, Canary Islands, Spain",4/25/1980
+166,Aeroflot,Tupolev,"Almaty, Kazakh SSR, USSR",7/8/1980
+301,Saudia,Lockheed,"Riyadh, Saudi Arabia",8/19/1980
+70,TAC,Sud,"Riohacha, Colombia",12/21/1980
+51,Soviet,Tupolev,"Pushkinsky District, Leningrad, Russian SFSR, USSR",2/7/1981
+50,Somali Airlines,Fokker,"Bal'ad District, Somalia",7/20/1981
+110,Far Eastern Air Transport,Boeing,"Miaoli, Taiwan",8/22/1981
+50,Aeropesca Colombia,Vickers,"Garzón, Colombia",8/26/1981
+99,Aeroflot,Tupolev,"Norilsk, Russian SFSR, USSR",11/16/1981
+180,Inex-Adria Aviopromet,McDonnell,"Petreto-Bicchisano, Corsica, France",12/1/1981
+78,Air Florida,Boeing,,1/13/1982
+112,Civil Aviation Administration of China,Hawker,"Yangshuo, China",4/26/1982
+137,VASP,Boeing,"Pacatuba, Brazil",6/8/1982
+132,Aeroflot,Yakovlev,"Mazyr, Byelorussian SSR, USSR",6/28/1982
+90,Aeroflot,Ilyushin,"Mendeleyevo, Russian SFSR, USSR",7/6/1982
+153,Pan Am,Boeing,"Kenner, Louisiana, US",7/9/1982
+50,Spantax,McDonnell,"Málaga, Spain",9/13/1982
+119,TAME,Boeing,"Cuenca, Ecuador",7/11/1983
+90,Aeroflot,Tupolev,"Almaty, Kazakh SSR, USSR",8/30/1983
+130,TAAG Angola,Boeing,"Lubango, Angola",11/8/1983
+181,Avianca,Boeing,"Madrid, Spain",11/27/1983
+53,Nigeria,Fokker,"Enugu, Nigeria",11/28/1983
+93,Iberia Flight 350 and Aviaco,Boeing,"Madrid, Spain",12/7/1983
+50,Balkan Bulgarian,Tupolev,"Sofia, Bulgaria",1/10/1984
+53,Aeroservicios Ecuatorianos,Douglas,"Quito Canton, Ecuador",9/18/1984
+178,Aeroflot,Tupolev,"Omsk, Russian SFSR, USSR",10/11/1984
+110,Aeroflot,Tupolev,"Yemelyanovsky, Russian SFSR, USSR",12/23/1984
+70,Galaxy Airlines,Lockheed,"Reno, Nevada, US",1/21/1985
+148,Iberia Airlines,Boeing,"Oiz mountain, Spain",2/19/1985
+51,Air,Antonov,"Timbuktu, Mali",2/22/1985
+94,Aeroflot Flight 8381 andSoviet Air,Tupolev,"Zolochiv, Ukrainian SSR, USSR",5/3/1985
+200,Aeroflot,Tupolev,"Uchkuduk, Uzbek SSR, USSR",7/10/1985
+80,Fuerza Aérea,Douglas,"Leticia, Colombia",7/24/1985
+137,Delta Air Lines,Lockheed,"Dallas–Fort Worth, Texas, US",8/2/1985
+520,Japan Airlines,Boeing,"Ueno, Japan",8/12/1985
+55,British Airtours,Boeing,"Manchester, England, UK",8/22/1985
+256,Arrow Air,McDonnell,"Gander, Newfoundland, Canada",12/12/1985
+93,Aerovias Guatemala,Sud,"Flores, Guatemala",1/18/1986
+167,Mexicana,Boeing,"Sierra Madre Oriental Mts., Mexico",3/31/1986
+54,Aeroflot,Tupolev,"Komi ASSR, Russian SFSR, USSR",7/2/1986
+82,Aeroméxico Flight 498 and Private,McDonnell,"Cerritos, California, US",8/31/1986
+70,Aeroflot,Tupolev,"Samara Oblast, Russian SFSR, USSR",10/20/1986
+72,Aeroflot,Tupolev,"Bohnsdorf, East Germany",12/12/1986
+50,Varig,Boeing,"Bingerville, Côte d'Ivoire",1/3/1987
+183,LOT,Ilyushin,"Warsaw, Poland",5/9/1987
+50,Philippine Airlines,Hawker,"Benguet, Philippines",6/26/1987
+156,Northwest Airlines,McDonnell,"Romulus, Michigan, U.S.",8/16/1987
+83,Thai Airways,Boeing,"Phuket, Thailand",8/31/1987
+159,South African Airways,Boeing,Mauritius,11/28/1987
+108,China Southwest Airlines,Ilyushin,"Chongqing, China",1/18/1988
+143,Avianca,Boeing,"Sardinata, Colombia",3/17/1988
+75,Vietnam Airlines,Tupolev,"Lam Luk Ka District, Thailand",9/9/1988
+133,Indian Airlines,Boeing,"Ahmedabad, India",10/19/1988
+144,Independent Air,Boeing,"Pico Alto Mtn., Azores, Portugal",2/8/1989
+176,Surinam Airways,Douglas,"Paramaribo, Surinam",6/7/1989
+59,Fuerza Aérea del,de,"Tarma, Peru",6/21/1989
+111,United Airlines,McDonnell,"Sioux City, Iowa, US",7/19/1989
+79,Korean Air,McDonnell,"Tripoli, Libya",7/27/1989
+54,Pakistan International Airlines,Fokker,"Bunji, Pakistan",8/25/1989
+150,Cubana de Aviación,Ilyushin,"Havana, Cuba",9/3/1989
+55,Partnair,Convair,"Skagerrak, near Hirtshals, Denmark",9/8/1989
+131,Tan-Sahsa,Boeing,"Tegucigalpa, Honduras",10/21/1989
+54,China Airlines,Boeing,"Hualien City, Taiwan",10/26/1989
+73,Avianca,Boeing,"Cove Neck, New York, US",1/25/1990
+92,Indian Airlines,Airbus,"Bangalore, India",2/14/1990
+63,Elleniki Polemikí,Lockheed,"Mount Othrys, Greece",2/5/1991
+223,Lauda Air,Boeing,"Phu Toei National Park, Thailand",5/26/1991
+261,Nigeria Airways,McDonnell,"Jeddah, Saudi Arabia",7/11/1991
+69,Indian Airlines,Boeing,"Imphal, India",8/16/1991
+51,Aeroflot,Yakovlev,"Untsukulsky District, Dagestan ASSR, Russian SFSR, USSR",11/7/1991
+87,Air Inter,Airbus,"Barr, France",1/20/1992
+70,Mandala Airlines,Vickers,"Ambon Island, Indonesia",7/24/1992
+108,China General Aviation,Yakovlev,"Nanjing, China",7/31/1992
+113,Thai Airways International,Airbus,"Langtang National Park, Nepal",7/31/1992
+84,Aeroflot,Tupolev,"Ivanovo Oblast, Russia",8/27/1992
+167,Pakistan International Airlines,Airbus,"Kathmandu, Nepal",9/28/1992
+141,China Southern Airlines,Boeing,"Yanshan District, China",11/24/1992
+56,Martinair,McDonnell,"Faro, Portugal",12/21/1992
+157,Libyan Arab Airlines Flight 1103 andLibyan,Boeing,"Qasr bin Ghashir, Tripoli, Libya",12/22/1992
+83,Palair Macedonian Airlines,Fokker,"Petrovec, Republic of Macedonia",3/5/1993
+56,Indian Airlines,Boeing,"Aurangabad, India",4/26/1993
+132,SAM Colombia,Boeing,"Medellín, Colombia",5/19/1993
+55,China Northwest Airlines,British,"Yinchuan, China",7/23/1993
+68,Asiana Airlines,Boeing,"Mokpo, South Korea",7/26/1993
+82,Tajikistan,Yakovlev,"Khorog, Tajikistan",8/28/1993
+116,Avioimpex,Yakovlev,"Ohrid, Republic of Macedonia",11/20/1993
+124,Baikal Air,Tupolev,"Irkutsk, Russia",1/3/1994
+75,Aeroflot,Airbus,"Mezhdurechensk, Russia",3/23/1994
+264,China Airlines,Airbus,"Komaki, Japan",4/26/1994
+160,China Northwest Airlines,Tupolev,"Xian, China",6/6/1994
+80,Air Mauritanie,Fokker,"Tidjikja, Mauritania",7/1/1994
+132,US Air,Boeing,"Aliquippa, Pennsylvania, US",9/8/1994
+66,Iran Aseman Airlines,Fokker,"Natanz, Iran",10/12/1994
+68,American Eagle,ATR,"Roselawn, Indiana, US",10/31/1994
+57,Turkish Airlines,Boeing,"Van, Turkey",12/29/1994
+51,Intercontinental de Aviación,Douglas,"María La Baja, Colombia",1/11/1995
+60,TAROM,Airbus,"Balotești, Romania",3/31/1995
+65,Aviateca,Boeing,"San Vicente volcano, El Salvador",8/9/1995
+53,Lineas Aéreas del Estado,Fokker,"Champaqui, Córdoba, Argentina",11/8/1995
+71,Cameroon Airlines,Boeing,"Douala, Cameroon",12/3/1995
+52,Azerbaijan Airlines,Tupolev,"Nakhchivan, Azerbaijan",12/5/1995
+98,Khabarovsk United Air,Tupolev,"Khabarovsk Krai, Russia",12/6/1995
+141,Trans Service,Lockheed,"Jamba, Cuando Cubango, Angola",12/18/1995
+159,American Airlines,Boeing,"Buga, Colombia",12/20/1995
+251,Air,Antonov,"Kinshasa, DR Congo (then Zaire)",1/8/1996
+189,Birgenair,Boeing,"Puerto Plata, Dominican Republic",2/6/1996
+123,Faucett,Boeing,"Arequipa, Peru",2/29/1996
+53,Federal,Antonov,"Khartoum North, Sudan",5/3/1996
+110,ValuJet,McDonnell,"Everglades, Florida, US",5/11/1996
+230,TWA,Boeing,"East Moriches, New York, U.S.",7/17/1996
+141,Vnukovo Airlines,Tupolev,"Svalbard, Norway",8/29/1996
+70,Aeroperú,Boeing,"Lima, Peru",10/2/1996
+99,TAM Airlines,Fokker,"São Paulo, Brazil",10/31/1996
+144,ADC Airlines,Boeing,"Lagos State, Nigeria",11/7/1996
+349,Saudi Arabian Flight 763 andKazakhstan Airlines,Boeing,"Charkhi Dadri, India",11/12/1996
+50,Stavropolskaya Aktsionernaya Avia,Antonov,"Cherkessk, Russia",3/18/1997
+228,Korean Air,Boeing,"Asan, Guam, U.S.",8/6/1997
+65,Vietnam Airlines,Tupolev,"Phnom Penh, Cambodia",9/3/1997
+234,Garuda Indonesia,Airbus,"Medan, Indonesia",9/26/1997
+74,Austral Líneas Aéreas,McDonnell,"Nuevo Berlín, near Fray Bentos, Uruguay",10/10/1997
+85,Tajikistan Airlines,Tupolev,"Sharjah, United Arab Emirates",12/15/1997
+70,Aerosvit,Yakovlev,"Pierian Mountains, Greece",12/17/1997
+104,SilkAir,Boeing,"Musi River, Indonesia",12/19/1997
+104,Cebu Pacific Air,McDonnell,"Mount Balatukan, Philippines",2/2/1998
+203,China Airlines,Airbus,"Dayuan District, Taiwan",2/16/1998
+53,Air France,Boeing,"Monserrate Mtn., Bogotá, Colombia",4/20/1998
+75,Peruvian Air,Boeing,"Andoas, Peru",5/5/1998
+80,Cubana de Aviación,Tupolev,"Quito, Ecuador",8/29/1998
+229,Swissair,McDonnell,"Peggys Cove, N.S., Canada",9/2/1998
+101,Thai Airways,Airbus,"Surat Thani, Thailand",12/11/1998
+61,China Southwest Airlines,Tupolev,"Wenzhou, Zhejiang, China",2/24/1999
+65,LAPA,Boeing,"Palermo, Argentina",8/31/1999
+217,EgyptAir,Boeing,"Nantucket, Massachusetts, U.S.",10/31/1999
+169,Kenya Airways,Airbus,Gulf of Guineaoff Côte d'Ivoire,1/30/2000
+88,Alaska Airlines,McDonnell,"Anacapa Island, California, US",1/31/2000
+131,Air Philippines,Boeing,"Samal, Philippines",4/19/2000
+60,Alliance Air,Boeing,"Patna, Bihar, India",7/17/2000
+113,Air France,Aérospatiale-BAC,"Gonesse, France",7/25/2000
+143,Gulf Air,Airbus,"Persian Gulf, off Al Muharraq, Bahrain",8/23/2000
+83,Singapore Airlines,Boeing,"Dayuan District, Taiwan",10/31/2000
+57,ASA,Antonov,"Luanda, Angola",11/15/2000
+145,Vladivostok Air,Tupolev,"Irkutsk, Russia",7/4/2001
+118,SAS Flight 686 andPrivate,McDonnell,"Milan, Italy",10/8/2001
+265,American Airlines,Airbus,"Belle Harbor, New York City, New York, U.S.",11/12/2001
+94,TAME,Boeing,"Cumbal Volcano, Colombia",1/28/2002
+119,Iran Air Tours,Tupolev,"Sarab-e Dowreh, Iran",2/12/2002
+129,Air China,Boeing,"Busan, South Korea",4/15/2002
+149,EAS Airlines,BAC,"Kano, Nigeria",5/4/2002
+112,China Northern Airlines,McDonnell,"Dalian Bay, China",5/7/2002
+225,China Airlines,Boeing,"Taiwan Strait, near Penghu Islands, Taiwan",5/25/2002
+71,Bashkirian Airlines Flight 2937 and DHL,Tupolev,"Überlingen, Germany",7/1/2002
+75,Turkish Airlines,Avro,"Diyarbakır, Turkey",1/8/2003
+102,Air Algérie,Boeing,"Tamanrasset, Algeria",3/6/2003
+75,UM Airlines,Yakovlev,"Maçka, Trabzon, Turkey",5/26/2003
+117,Sudan Airways,Boeing,"Port Sudan, Sudan",7/8/2003
+141,UTAGE,Boeing,"Cotonou, Benin",12/25/2003
+148,Flash Airlines,Boeing,"Red Sea, off Sharm el-Sheikh, Egypt",1/3/2004
+55,China Eastern Airlines,Bombardier,"Baotou, Inner Mongolia, China",11/21/2004
+104,Kam Air,Boeing,"Pamir Mts., Afghanistan",2/3/2005
+60,Equatorial Express,Antonov,"Baney, Equatorial Guinea",7/16/2005
+121,Helios Airways,Boeing,"Grammatiko, Greece",8/14/2005
+160,West Caribbean Airways,McDonnell,"Machiques, Venezuela",8/16/2005
+149,Mandala Airlines,Boeing,"Medan, Indonesia",9/5/2005
+117,Bellview Airlines,Boeing,"Lagos, Nigeria",10/22/2005
+108,Sosoliso Airlines,McDonnell,"Port Harcourt, Nigeria",12/10/2005
+113,Armavia,Airbus,"Black Sea, off Adler, Russia",5/3/2006
+125,Sibir (S7) Airlines,Airbus,"Irkutsk, Russia",7/9/2006
+170,Pulkovo,Tupolev,,8/22/2006
+154,Gol Transportes Aéreos Flight 1907 and,Boeing,"Peixoto Azevedo, Brazil",9/29/2006
+96,ADC Airlines,Boeing,"Abuja, Nigeria",10/29/2006
+102,Adam Air Flight,Boeing,"Makassar Strait, Indonesia",1/1/2007
+114,Kenya Airways,Boeing,"Douala, Cameroon",5/5/2007
+199,TAM Airlines,Airbus,"São Paulo, Brazil",7/17/2007
+90,One-Two-GO Airlines,McDonnell,"Phuket, Thailand",9/16/2007
+51,Malift,Antonov,"Kinshasa, DR Congo",10/4/2007
+57,Atlasjet,McDonnell,"Keçiborlu, Turkey",11/30/2007
+154,Spanair,McDonnell,"Madrid, Spain",8/20/2008
+65,Iran Aseman Airlines/Itek Air,Boeing,"Bishkek, Kyrgyzstan",8/24/2008
+88,Aeroflot-Nord,Boeing,"Perm, Russia",9/14/2008
+50,Colgan Air Flight,Bombardier,"Clarence Center, New York, US",2/12/2009
+228,Air France,Airbus,Saint Peter and Saint Paul Archipelago,6/1/2009
+152,Yemenia,Airbus,"Mozambique Channel off Mitsamiouli, Comoros",6/30/2009
+168,Caspian Airlines,Tupolev,"Qazvin, Iran",7/15/2009
+90,Ethiopian Airlines,Boeing,"Na'ameh, Lebanon",1/25/2010
+103,Afriqiyah Airways,Airbus,"Tripoli, Libya",5/12/2010
+158,Air India Express,Boeing,"Mangalore, India",5/22/2010
+152,Airblue,Airbus,"Islamabad, Pakistan",7/28/2010
+68,Aero Caribbean,ATR,"Guasimal, Cuba",11/4/2010
+77,Iran Air,Boeing,"Urmia, Iran",1/9/2011
+74,Hewa Bora Airways,Boeing,"Kisangani, DR Congo",7/8/2011
+127,Bhoja Air,Boeing,"Islamabad, Pakistan",4/20/2012
+159,Dana Air,McDonnell,"Lagos, Nigeria",6/3/2012
+50,Tatarstan Airlines,Boeing,"Kazan, Russia",11/17/2013
+239,Malaysia Airlines,Boeing,,3/8/2014
+116,Air Algérie,McDonnell,"Gossi, Mali",7/24/2014
+162,Indonesia AirAsia,Airbus,"Karimata Strait, between Belitung and Borneo, Java Sea, Indonesia",12/28/2014
+150,Germanwings,Airbus,"near French Alps, France",3/24/2015
+54,Trigana Air,ATR,"Pegunungan Bintang Regency, Papua, Indonesia",8/16/2015
+62,Flydubai,Boeing,"Rostov-on-Don, Russia",3/19/2016
+66,EgyptAir,Airbus,Mediterranean Sea,5/19/2016
+71,LaMia Airlines,Avro,"Medellin, Colombia",11/28/2016
+71,Saratov Airlines,Antonov,"near Stepanovskoye, Moscow Oblast, Russia",2/11/2018
+66,Iran Aseman Airlines,ATR,"Mount Dena, Zagros Mountains near Semirom, Iran",2/18/2018
+51,US-Bangla Airlines,Bombardier,"Kathmandu, Nepal",3/12/2018
+112,Cubana de Aviación,Boeing,"Santiago de las Vegas, Cuba",5/18/2018
+189,Lion Air,Boeing,"Java Sea, off Tanjungbungin, Karawang Regency, Indonesia",10/29/2018
+157,Ethiopian Airlines,Boeing,"Bishoftu, Ethiopia",3/10/2019
