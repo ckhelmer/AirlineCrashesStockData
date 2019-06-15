@@ -1,193 +1,338 @@
-// @TODO: YOUR CODE HERE!
-var svgWidth = 960;
-var svgHeight = 500;
-
-var margin = {
-  top: 20,
-  right: 40,
-  bottom: 60,
-  left: 20
-};
-
-var width = svgWidth - margin.left - margin.right;
-var height = svgHeight - margin.top - margin.bottom;
-// Create an SVG wrapper, append an SVG group that will hold our chart, and shift the latter by left and top margins.
-var chart = d3.select("#scatter")
-  .append("svg")
-  .attr("width", svgWidth)
-  .attr("height", svgHeight)
-  .attr("transform", `translate(0, ${margin.top})`);
-
-//Append a div to the body to create tooltips
-var toolTip = d3.select("body").append("div")
-					.attr("class", "tooltip")
-					.style("opacity", 0);
-
-
-var chosenXAxis='Aircraft'
-var chosenYAxis='TotalDeaths'
-// Import Data
-
-// Step 1: Parse Data/Cast as numbers
-// ==============================
-
-d3.csv("static/data.csv").then(function(Crash) {
-
-   // Step 1: Create scale functions
-    // ==============================
-    var xBandScale = d3.scaleBand()
-   
-//  .domain(Crash.map(d => d.Aircraft))
- .range([0, width])
- .padding(0.1);
-//  console.log(xBandScale);
  
- var yLinearScale = d3.scaleLinear()
- .domain([0, d3.max(Crash, d => d.TotalDeaths)])
- .range([height, 0]);
+
+    // This stateless component renders a static "wheel" made of circles,
+    // and rotates it depending on the value of props.angle.
+    var wheel = d3.component("g")
+      .create(function (selection){
+        var minRadius = 4,
+            maxRadius = 10,
+            numDots = 10,
+            wheelRadius = 40,
+            rotation = 0,
+            rotationIncrement = 3, 
+            radius = d3.scaleLinear()
+              .domain([0, numDots - 1])
+              .range([maxRadius, minRadius]),
+            angle = d3.scaleLinear()
+              .domain([0, numDots])
+              .range([0, Math.PI * 2]);
+        selection
+          .selectAll("circle").data(d3.range(numDots))
+          .enter().append("circle")
+            .attr("cx", function (d){ return Math.sin(angle(d)) * wheelRadius; })
+            .attr("cy", function (d){ return Math.cos(angle(d)) * wheelRadius; })
+            .attr("r", radius);
+      })
+      .render(function (selection, d){
+        selection.attr("transform", "rotate(" + d + ")");
+      });
+    
+    // This component with a local timer makes the wheel spin.
+    var spinner = (function (){
+      var timer = d3.local();
+      return d3.component("g")
+        .create(function (selection, d){
+          timer.set(selection.node(), d3.timer(function (elapsed){
+            selection.call(wheel, elapsed * d.speed);
+          }));
+        })
+        .render(function (selection, d){
+          selection.attr("transform", "translate(" + d.x + "," + d.y + ")");
+        })
+        .destroy(function(selection, d){
+          timer.get(selection.node()).stop();
+        	return selection
+          		.attr("fill-opacity", 1)
+          	.transition().duration(3000)
+          		.attr("transform", "translate(" + d.x + "," + d.y + ") scale(10)")
+          		.attr("fill-opacity", 0);
+        });
+    }());
+    
+    var axis = (function (){
+      var axisLocal = d3.local();
+      return d3.component("g")
+      	.create(function (selection, d){
+        	axisLocal.set(selection.node(), d3["axis" + d.type]());
+          selection
+            	.attr("opacity", 0)
+              .call(axisLocal.get(selection.node())
+                .scale(d.scale)
+                .ticks(d.ticks || 10))
+            .transition("opacity").duration(2000)
+          	  .attr("opacity", 0.8);
+        })
+      	.render(function (selection, d){
+        	selection
+              .attr("transform", "translate(" + [
+            		d.translateX || 0,
+            		d.translateY || 0
+          		] + ")")
+            .transition("ticks").duration(3000)
+          		.call(axisLocal.get(selection.node()));
+        });
+    }());
+    
+    // This component displays the visualization.
+    var scatterPlot = (function (){
+      var xScale = d3.scaleLinear(),
+          yScale = d3.scaleLinear(),
+          colorScale = d3.scaleOrdinal()
+      			.range(d3.schemeCategory10);
 
 
- var bottomAxis = d3.axisBottom(xBandScale);
- var leftAxis = d3.axisLeft(yLinearScale);
-
- 
-    var yMin;
-    var yMax;
-     
-	function plotcircleandaxis(chosenXAxis,chosenYAxis) {
-		chart.selectAll("svg g").remove();
-		
-	 
-		yMin = d3.min(Crash, function (data){
-      
-		  return +data[chosenYAxis] * 0.95;
-		});
-		yMax = d3.max(Crash, function (data){
-		  return +data[chosenYAxis] * 1.05;
-    });
-    xBandScale.domain(Crash.map(d => d.Aircraft));
-    yLinearScale.domain([yMin, yMax]);
-
-    console.log(chosenYAxis)
-
-chart.append("g")
-.attr('transform', `translate(80, 0)`)
-.selectAll("circle")
-.data(Crash)
-.enter()
-.append("circle")
-.attr("cx", function(data, index) {
-    return xBandScale(data[chosenXAxis])
-})
-.attr("cy", function(data, index) {
-    return yLinearScale(data[chosenYAxis])
-})
-.attr("r", "15")
-.attr("fill", "lightblue")
-
-// display tooltip on click
-.on("mouseenter", function(data) {
-    console.log(chosenXAxis);
-    toolTip.transition()
-        .duration(200)
-        .style('opacity',.9)
-    toolTip.html('<ul class="info"><li>Carrier: '+data.Carrier+'</li><li>'+chosenXAxis+' : '+data[chosenXAxis]+'</li><li>'+chosenYAxis+' : '+data[chosenYAxis]+'</li></ul>')
-        .style('left',(d3.event.pageX+5)+'px')
-        .style('top',(d3.event.pageY-28)+'px')
-})
-// hide tooltip on mouseout
-.on("mouseout", function(data, index) {
-    toolTip.transition()
-        .duration(500)
-        .style('opacity',0)
-});
-
-// Appending a label to each data point
-chart
-.append("g")
-.attr('transform', `translate(80, 0)`)
-.append("text")
-.style("text-anchor", "middle")
-.style("font-size", "12px")
-.selectAll("tspan")
-.data(Crash)
-.enter()
-.append("tspan")
-    .attr("x", function(data) {
-        return xBandScale(data[chosenXAxis] - 0);
-    })
-    .attr("y", function(data) {
-        return yLinearScale(data[chosenYAxis]- 0.2);
-    })
-    .text(function(data) {
-        return data.abbr
-    });
-// Append an SVG group for the xaxis, then display x-axis 
-chart
-.append("g")
-.attr('transform', `translate(80, ${height})`)
-.call(bottomAxis);
-
-// Append a group for y-axis, then display it
-chart
-.append("g")
-.attr('transform', `translate(80, 0)`)
-.call(leftAxis);
-	// Append y-axis label
-  chart
-  .append("text")
-  .attr("transform", "rotate(-90)")
-  .attr("y", 0-margin.left + 50)
-  .attr("x", 0 - height/2)
-  .attr("dy","1em")
-  .attr("class", "axis-text")
-  .attr("value","TotalDeaths")
-  .text("Total Death")
-// Append x-axis labels
-chart
-.append("text")
-.attr(
-    "transform",
-    "translate(" + width / 2 + " ," + (height + margin.top + 40) + ")"
-)
-.attr("class", "axis-text")
-.attr("value","Xaircraft")
-.text("Air craft");
-chart
-.append("text")
-.attr(
-    "transform",
-    "translate(" + width / 2 + " ," + (height + margin.top + 25) + ")"
-)
-.attr("class", "axis-text")
-.attr("value","Xcarrier")
-.text("Carrier ");	
-  // updateToolTip function above csv import
-		// var circlesGroup = updateToolTip(chosenXAxis, circlesGroup);
-
-		// x axis labels event listener
-  chart.selectAll(".axis-text")
-  .on("click", function() {
-    // get value of selection
-    value=d3.select(this).attr("value");
-    console.log(value)
-
-    if (value.slice(0,1)=="X"){
-      if (value.slice(1,20) !== chosenXAxis) {
-      // replaces chosenXAxis with value
-          chosenXAxis = value.slice(1,20);
-          plotcircleandaxis(chosenXAxis,chosenYAxis)
+      function render(selection, d){
+        var x = d.x,
+            y = d.y,
+            color = d.color,
+            margin = d.margin,
+            innerWidth = d.width - margin.left - margin.right,
+            innerHeight = d.height - margin.top - margin.bottom;
+            
+        xScale
+        	.domain(d3.extent(d.data, function (d){ return d[x]; }))
+        	.range([0, innerWidth]);
+        yScale
+        	.domain(d3.extent(d.data, function (d){ return d[y]; }))
+        	.range([innerHeight, 0]);
+        colorScale
+        	.domain(d3.extent(d.data, function (d){ return d[color]; }));
+        
+        selection
+        		.attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+        		.call(axis, [
+              {
+                type: "Left",
+                scale: yScale,
+                translateX: -12
+              },
+              {
+                type: "Bottom",
+                scale: xScale,
+                translateY: innerHeight + 12,
+                ticks: 20
+              }
+            ])
+        
+        var circles = selection.selectAll(".point").data(d.data);
+        circles.exit().remove();
+        circles
+          .enter().append("circle")
+        		.attr("class", "point")
+            .attr("r", 0)
+            .attr("cx", d.width / 2 - margin.left)
+            .attr("cy", d.height / 2 - margin.top)
+          .merge(circles)
+            .on("mouseover", d.show)
+            .on("mouseout", d.hide)
+          .transition()
+          	.duration(2000)
+        		.delay(function (d, i){ return i * 5; })
+            .attr("r", 10)
+            .attr("cx", function (d){ return xScale(d[x]); })
+            .attr("cy", function (d){ return yScale(d[y]); })
+        		// .attr("color", function (d){ return colorScale(d[color]); })
       }
-    }else{
-      if (value.slice(1,20) !== chosenYAxis) {
-      // replaces chosenXAxis with value
-          chosenXAxis = value.slice(1,20);
-          plotcircleandaxis(chosenXAxis,chosenYAxis)
-      }		  
-    }
-});		
-      
-}
+      return d3.component("g")
+        .render(render);
+    }());
+    
+    // Leverage the d3-tip library for tooltips.
+    var tooltip = (function (){
+      var tip = d3.tip()
+        .attr("class", "d3-tip")
+        .offset([-10, 0]);
+      return function (svgSelection, state){
+        
+        // Wish we could use D3 here for DOM manipulation..
+        tip.html(function(d) {
+          return [
+            "<h6>" + d.Year +  "/" + d.Month +"/" + d.Date +"," + d.Carrier + ", " + d.Aircraft + "</h6>",
+            "<div><strong>" + state.x + ": </strong>",
+            "<span>" + d[state.x] + "</span></div>",
+            "<div><strong>" + state.y + ": </strong>",
+            "<span>" + d[state.y] + "</span></div>",
+            "<div><strong>" + state.color + ": </strong>",
+            "<span>" + d[state.color] + "</span></div>"
+          ].join("");
+        });
+        svgSelection.call(tip);
+        return {
+          show: tip.show,
+          hide: tip.hide
+        };
+      }
+    }());
+    
+    // This component manages an svg element, and
+    // either displays a spinner or text,
+    // depending on the value of the `loading` state.
+    var svg = d3.selectAll("svg")
+      .render(function (selection, d){
+        var svgSelection = selection
+        		.attr("width", d.width)
+        		.attr("height", d.height)
+            .call(spinner, !d.loading ? [] : {
+              x: d.width / 2,
+              y: d.height / 2,
+              speed: 0.2
+            });
+        var tipCallbacks = tooltip(svgSelection, d);
+        svgSelection
+            .call(scatterPlot, d.loading ? [] : d, tipCallbacks);
+      });
+    
+    var label = d3.component("label", "col-sm-2 col-form-label")
+    	.render(function (selection, d){
+        selection.text(d);
+      });
+    
+    var option = d3.component("option")
+    	.render(function (selection, d){
+        selection.text(d);
+      });
+    
+    var select = d3.component("select", "form-control")
+    	.render(function (selection, d){
+        selection
+          	.call(option, d.columns)
+        		.property("value", d.value)
+        		.on("change", function (){
+              d.action(this.value);
+            })
+      });
+    
+    var rowComponent = d3.component("div", "row");
+    var colSm10 = d3.component("div", "col-sm-10");
+    var menu = d3.component("div", "col-sm-4")
+    	.render(function (selection, d){
+        var row = rowComponent(selection).call(label, d.label);
+        colSm10(row).call(select, d);
+      });
+    
+    var menus = d3.component("div", "container-fluid")
+    	.create(function (selection){
+        selection.style("opacity", 0);
+      })
+    	.render(function (selection, d){
+        rowComponent(selection).call(menu, [
+          {
+            label: "X",
+            value: d.x,
+            action: d.setX,
+            columns: d.numericColumns
+          },
+          {
+            label: "Y",
+            value: d.y,
+            action: d.setY,
+            columns: d.numericColumns
+          },
+          {
+            label: "Color",
+            value: d.color,
+            action: d.setColor,
+            columns: d.ordinalColumns
+          }
+        ], d);
+        if(!d.loading && selection.style("opacity") === "0"){
+          selection.transition().duration(2000)
+          		.style("opacity", 1);
+        }
+      });
+    
+    var app = d3.component("div")
+    	.render(function (selection, d){
+        selection.call(menus, d).call(svg, d);
+      });
+    
+    function loadData(actions){
+      var numericColumns = [
+            "Month", 
+            "TotalDeaths",
+            "Year", 
+          ],
+          ordinalColumns = [
+            "Aircraft",
+            "TotalDeaths",
+            "Carrier",
+            "Location"
 
-plotcircleandaxis(chosenXAxis,chosenYAxis)
-});
+          ];
+
+      setTimeout(function (){ // Show off the spinner for a few seconds ;)
+        d3.csv("short-data.csv", type, function (data){
+          actions.ingestData(data, numericColumns, ordinalColumns)
+        });
+      }, 2000);
+      
+      function type(d){
+        return numericColumns.reduce(function (d, column){
+          d[column] = + d[column];
+          return d;
+        }, d);
+      }
+    }
+    
+    function reducer (state, action){
+      var state = state || {
+        width: 960,
+        height: 500 - 38,
+        loading: true,
+        margin: {top: 12, right: 12, bottom: 40, left: 50},
+        x: "Year",
+        y: "TotalDeaths",
+        color: "Location"
+      };
+      switch (action.type) {
+        case "INGEST_DATA":
+          return Object.assign({}, state, {
+            loading: false,
+            data: action.data,
+            numericColumns: action.numericColumns,
+            ordinalColumns: action.ordinalColumns
+          });
+        case "SET_X":
+          return Object.assign({}, state, { x: action.column });
+        case "SET_Y":
+          return Object.assign({}, state, { y: action.column });
+        case "SET_COLOR":
+          return Object.assign({}, state, { color: action.column });
+        default:
+          return state;
+      }
+    }
+    
+    function actionsFromDispatch(dispatch){
+      return {
+        ingestData: function (data, numericColumns, ordinalColumns){
+          dispatch({
+            type: "INGEST_DATA",
+            data: data,
+            numericColumns: numericColumns,
+            ordinalColumns: ordinalColumns
+          });
+        },
+        setX: function (column){
+          dispatch({ type: "SET_X", column: column });
+        },
+        setY: function (column){
+          dispatch({ type: "SET_Y", column: column });
+        },
+        setColor: function (column){
+          dispatch({ type: "SET_COLOR", column: column });
+        }
+      };
+    }
+    
+    function main(){
+      var store = Redux.createStore(reducer),
+          actions = actionsFromDispatch(store.dispatch);
+          renderApp = function(){
+            d3.select("body").call(app, store.getState(), actions);
+          }
+      renderApp();
+      store.subscribe(renderApp);
+      loadData(actions);
+    }
+    main();
