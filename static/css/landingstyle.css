@@ -1,30 +1,32 @@
-
 body {
-    text-align: left;
-    font-family: 'Assistant', sans-serif;;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
     max-height: 1780px;
     background-color: white;
 }
-/*
+
 .card-title, .card-text {
-    color: black;
-    font-family: Merriweather, serif;
+    color: white;
+    font-family: 'Assistant', sans-serif;
     
 }
 .card-title {
-    font-family: "Alfa Slab One", serif;
+    font-family: "Assistant", sans-serif;
     font-size: 36px;
     padding: 25px;
     margin-bottom: 25px;
 }
 
+.card-text {
+    font-size: 24px;
+}
 #sub {
     font-size: 14px;
 }
 .card-img-overlay {
     background-color: rgba(0,0,0,.1)
 }
-
+/*
 .nav-item {
     padding: 7px 30px;
 }
